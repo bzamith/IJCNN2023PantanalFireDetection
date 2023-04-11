@@ -1,0 +1,14 @@
+[flake8]
+ignore = C901, D204, D205, D400, D401, E127, W503, W504, ANN002, ANN003, ANN101, ANN102, ANN204, ANN401
+exclude =
+    archive
+    build
+    test
+    config
+    setup.py
+    __init__.py
+    env
+max-complexity = 10
+max-line-length = 200
+application-import-names = src, config
+import-order-style = cryptography
